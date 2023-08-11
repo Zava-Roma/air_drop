@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@400;700&family=Inter:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus,
+:active {
+  outline: none; }
+
+a:focus,
+a:active {
+  outline: none; }
+
+nav,
+footer,
+header,
+aside {
+  display: block; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input,
+button,
+textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a,
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+/*-------------------------------FONTS-----------------------------------*/
+/*-------------------------DEFAULT FONT-----------------------------*/
+/*-------------------------------VARIABLES-------------------------------*/
+/*
+   @media (max-width: $md2) {
+   }
+   @media (max-width: $md3) {
+   }
+   @media (max-width: $md4) {
+   }
+*/
+/*--------------------------CONTENT WRAPPERS------------------------------*/
+html {
+  background-color: #232323; }
+
+body {
+  font-family: "Inter", sans-serif;
+  color: white; }
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.container {
+  max-width: 730px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.page {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%; }
+
+.text {
+  font-size: 18px;
+  color: #ebebeb;
+  line-height: 1.5; }
+  .text span {
+    text-decoration: underline; }
+  .text > .inner_text:not(:last-child) {
+    margin-bottom: 20px; }
+  .text a {
+    color: white;
+    -webkit-filter: drop-shadow(0px 0px 10px white);
+    filter: drop-shadow(0px 0px 10px white);
+    word-break: break-all; }
+
+.img {
+  margin: 0 auto; }
+  .img img {
+    max-width: 100%;
+    width: 100%; }
+
+.header {
+  padding: 0 0 30px 0; }
+  .header__date {
+    color: #696969;
+    font-size: 18px;
+    line-height: 1.5; }
+  .header__title {
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 700; }
+
+.page__text {
+  margin-bottom: 20px; }
+
+.page__img {
+  margin-bottom: 20px; }
+
+.page__img2 {
+  margin-bottom: 20px;
+  max-width: 300px; }
+
+.language {
+  display: block;
+  padding-top: 20px;
+  padding: 10px 0; }
+  .language button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ebebeb;
+    color: #232323;
+    font-weight: 700;
+    border-radius: 10px; }
